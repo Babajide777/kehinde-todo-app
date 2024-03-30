@@ -1,0 +1,27 @@
+{
+  "name": "kehinde-todo-app",
+  "version": "1.0.0",
+  "description": "backend for kehinde's todo app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "todo",
+    "node",
+    "express"
+  ],
+  "author": "Oyafemi Babajide, Oyafemi Kehinde",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "joi": "^17.12.2",
+    "mongoose": "^8.2.4",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
